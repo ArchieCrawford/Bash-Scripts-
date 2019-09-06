@@ -1,0 +1,2 @@
+#List Users only 
+awk -F':' '{ print $1}' /etc/passwd
