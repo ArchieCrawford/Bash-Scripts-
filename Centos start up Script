@@ -1,10 +1,18 @@
 #Bash 
 
+sudo yum -y update
+
+sudo yum -y upgrade
+
 sudo yum -y install epel-release
 
 rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm
 
 sudo yum -y  install p7zip
+
+sudo yum -y install firewalld
+sudo systemctl start firewalld
+sudo systemctl start firewalld
 
 sudo yum -y install links
 
